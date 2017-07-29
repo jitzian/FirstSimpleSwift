@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     func alertAfterValidating(strInput : String!){
-        var isNeelam : Bool = strInput == "Neelam's is sleeping in my bed" ? true : false
+        let isNeelam : Bool = strInput == "Neelam's is sleeping in my bed" ? true : false
         print(isNeelam)
         
         if strInput.contains("Neelam"){
