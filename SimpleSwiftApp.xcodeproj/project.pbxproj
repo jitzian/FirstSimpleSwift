@@ -14,6 +14,8 @@
 		E1BE3B091F2D203E00F5C04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BE3B071F2D203E00F5C04F /* LaunchScreen.storyboard */; };
 		E1BE3B141F2D203E00F5C04F /* SimpleSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE3B131F2D203E00F5C04F /* SimpleSwiftAppTests.swift */; };
 		E1BE3B1F1F2D203E00F5C04F /* SimpleSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE3B1E1F2D203E00F5C04F /* SimpleSwiftAppUITests.swift */; };
+		E1BE3B381F2D3B8B00F5C04F /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BE3B371F2D3B8B00F5C04F /* SecondStoryboard.storyboard */; };
+		E1BE3B3A1F2D3CB000F5C04F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE3B391F2D3CB000F5C04F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E1BE3B1A1F2D203E00F5C04F /* SimpleSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BE3B1E1F2D203E00F5C04F /* SimpleSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftAppUITests.swift; sourceTree = "<group>"; };
 		E1BE3B201F2D203E00F5C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BE3B371F2D3B8B00F5C04F /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		E1BE3B391F2D3CB000F5C04F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		E1BE3AFD1F2D203E00F5C04F /* SimpleSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1BE3B391F2D3CB000F5C04F /* SecondViewController.swift */,
+				E1BE3B371F2D3B8B00F5C04F /* SecondStoryboard.storyboard */,
 				E1BE3AFE1F2D203E00F5C04F /* AppDelegate.swift */,
-				E1BE3B001F2D203E00F5C04F /* ViewController.swift */,
 				E1BE3B021F2D203E00F5C04F /* Main.storyboard */,
+				E1BE3B001F2D203E00F5C04F /* ViewController.swift */,
 				E1BE3B051F2D203E00F5C04F /* Assets.xcassets */,
 				E1BE3B071F2D203E00F5C04F /* LaunchScreen.storyboard */,
 				E1BE3B0A1F2D203E00F5C04F /* Info.plist */,
@@ -235,6 +241,7 @@
 				E1BE3B091F2D203E00F5C04F /* LaunchScreen.storyboard in Resources */,
 				E1BE3B061F2D203E00F5C04F /* Assets.xcassets in Resources */,
 				E1BE3B041F2D203E00F5C04F /* Main.storyboard in Resources */,
+				E1BE3B381F2D3B8B00F5C04F /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BE3B3A1F2D3CB000F5C04F /* SecondViewController.swift in Sources */,
 				E1BE3B011F2D203E00F5C04F /* ViewController.swift in Sources */,
 				E1BE3AFF1F2D203E00F5C04F /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +515,7 @@
 				E1BE3B251F2D203E00F5C04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BE3B261F2D203E00F5C04F /* Build configuration list for PBXNativeTarget "SimpleSwiftAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				E1BE3B281F2D203E00F5C04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BE3B291F2D203E00F5C04F /* Build configuration list for PBXNativeTarget "SimpleSwiftAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				E1BE3B2B1F2D203E00F5C04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

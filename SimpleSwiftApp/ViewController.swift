@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var mButton : UIButton!
     @IBOutlet weak var mLabel : UILabel!
+    @IBOutlet weak var mButtonThirdScene: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +42,23 @@ class ViewController: UIViewController {
         }else{
             print("Neelam is not here..")
         }
+    }
+    
+    @IBAction func moveToNext(){
+        print("moveToNext")
+        let storyboard = UIStoryboard(name: "SecondStoryboard", bundle: nil)
+        let moveToNextController = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+        self.present(moveToNextController, animated: true, completion: nil)
+
+       //create segue 
+       // navigationController?.pushViewController(moveToNext, animated: true)
+        
+        
+    }
+    
+    @IBAction func moveToThirdScene(){
+        print("Move to the trhird scene...")
+        
     }
 
 
